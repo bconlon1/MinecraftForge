@@ -31,7 +31,6 @@ public class NoiseGeneratorSettingsTest {
     }
 
     public void onGatherData(GatherDataEvent event) {
-        System.out.println("called");
         DataGenerator generator = event.getGenerator();
         generator.addProvider(event.includeServer(), new WorldGenData(generator.getPackOutput()));
     }
