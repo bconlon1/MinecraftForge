@@ -270,6 +270,8 @@ modId="ambient_occlusion_elements_test"
 modId="grindstone_event_test"
 [[mods]]
 modId="creative_mode_tab_test"
+[[mods]]
+modId="noise_generator_settings_test"
 
 
 # ADD ABOVE THIS LINE
