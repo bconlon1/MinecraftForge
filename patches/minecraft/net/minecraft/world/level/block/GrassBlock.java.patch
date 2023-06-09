@@ -1,0 +1,11 @@
+--- a/net/minecraft/world/level/block/GrassBlock.java
++++ b/net/minecraft/world/level/block/GrassBlock.java
+@@ -58,7 +_,7 @@
+                   continue;
+                }
+ 
+-               holder = ((RandomPatchConfiguration)list.get(0).f_65378_()).f_191304_();
++               holder = ((RandomPatchConfiguration)list.get(p_221271_.m_188503_(list.size())).f_65378_()).f_191304_();
+             } else {
+                if (!optional.isPresent()) {
+                   continue;
